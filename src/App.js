@@ -1,14 +1,14 @@
-import './App.css';
+import './assets/css/App.css';
 import React from 'react';
-import Button from '@mui/material/Button';
+import Protfolio from './Components/Profolio';
 function App() {
   return (
-    <div className="App">
-      <h1>
-        Hello
-      </h1>
-      <Button variant="contained">Contained</Button>
-    </div>
+    <>    
+      <div className="App" sx={{padding:'0', bgcolor: '#cfe8fc'}}>
+        <Protfolio/>
+      </div>
+    </>
+
   );
 }
 
